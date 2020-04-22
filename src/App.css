@@ -19,7 +19,19 @@ body{
     position: relative;
     border: 1px solid darkgreen;
 }
-.item
+.strike
+{
+    border:1px solid darkgreen;
+    border-collapse:collapse;
+    height: 75px;
+    padding: 10px;
+}
+.strike p
+{
+    text-decoration: line-through;
+}
+
+.nostrike
 {
     border:1px solid darkgreen;
     border-collapse:collapse;
@@ -52,6 +64,15 @@ body{
    font-size: 12px;
    border:none;
 }
+.sort
+{
+   background-color: darkgreen;
+   color: white;
+   text-align: center;
+   padding: 6px 6px;
+   font-size: 12px;
+   border:none;   
+}
 
 #additem
 {
@@ -63,7 +84,7 @@ body{
     border-top:none;
     border-collapse:collapse;
 }
-#additemform
+.additemform
 {
     display: inline-block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
